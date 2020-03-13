@@ -16,4 +16,8 @@ export const config = {
     "host": "",
     "dialect": "postgres"
   }
+
+  "jwt" : {
+    "secret" : "Hello world"
+  }
 }
