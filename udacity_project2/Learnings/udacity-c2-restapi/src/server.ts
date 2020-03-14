@@ -12,7 +12,7 @@ import { V0MODELS } from './controllers/v0/model.index';
   await sequelize.sync();
 
   const app = express();
-  const port = process.env.PORT || 8080; // default port to listen
+  const port = process.env.PORT || 9090; // default port to listen
   
   app.use(bodyParser.json());
 
@@ -26,7 +26,8 @@ import { V0MODELS } from './controllers/v0/model.index';
   app.use('/api/v0/', IndexRouter)
 
   // Root URI call
-  app.get( "/", async ( req, res ) => {
+  app.get( "/", async ( req, res ) => 
+  {
     res.send( "/api/v0/" );
   } );
   
