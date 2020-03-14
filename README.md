@@ -16,12 +16,14 @@ index.html - The Index document for the website.
 /vendor - Bootssrap CSS framework, Font, and JavaScript libraries needed for the website to function.
 /css - CSS files for the website.
 
-##Commands
+## Commands
 npm install ts-node --save-dev
 npm install typescript -g 
 npm install typescript --save-dev
 
-##Debugging & Troubleshooting
-https://stackoverflow.com/questions/51014647/aws-postgres-db-does-not-exist-when-connecting-with-pg
+## Debugging & Troubleshooting
+1. Problem -01 : Not able to connect to the AWS Postgres DB inspite of having all valid security group - inbound and outbound rules defined to connect and made the DB public: 
+Solution : https://stackoverflow.com/questions/51014647/aws-postgres-db-does-not-exist-when-connecting-with-pg
+2. Problem -02 : 
 
 
