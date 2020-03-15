@@ -5,7 +5,7 @@ export const config = {
     "database": "",
     "host": "udagramamitrds12.cmhedz1tuumm.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
-    "aws_region": "us-east-1",
+    "aws_region": "us-east",
     "aws_profile": "default",
     "aws_media_bucket": "udagramamitgoswamidev"
   },
@@ -23,6 +23,11 @@ export const config = {
     "database": "postgres",
     "host": "udagramamitrds12.cmhedz1tuumm.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
+  },
+  "aws": {
+    "aws_region": "us-east-1",
+    "aws_profile": "default",
+    "aws_media_bucket": "udagramamitgoswamidev"
   },
   "jwt" : {
     "secret" : "Hello world"
