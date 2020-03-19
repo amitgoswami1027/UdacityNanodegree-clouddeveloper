@@ -11,7 +11,7 @@ Solution : https://stackoverflow.com/questions/51014647/aws-postgres-db-does-not
    My solution was: to install latest versions of following modules: (This solves the issue)
    npm i sequelize@latest --save
    npm i sequelize-typescript@latest --save
-4. Problem -04 : Not able to use "put" the files in S3 using "Post Man" 
+4. Problem -04 : Not able to use "put" the files in S3 using "Post Man" :
    The account provided- AWSEducate with aws credit doesnot allow you to generate them.
    You need to use another AWS account to generate the access key id and secret access key, to compelete the project
    S3 bucket should have all necessary public access to access from the internet.
