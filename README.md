@@ -39,6 +39,11 @@ npm install ts-node --save-dev
 npm install typescript -g 
 npm install typescript --save-dev
 
+//Build & Deploy Elasticbean package
+npm install rimraf -g
+  "build": "npm run clean && tsc && xcopy /e /i src\\config www\\config && copy /v .npmrc www\\.npmrc && copy /v package.json www\\package.json && cd www && zip -r Archive.zip . && cd ..",
+  
+
  
 
 
