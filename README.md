@@ -1,10 +1,18 @@
 
+## Udacity Cloud Projects - AWS_Cloud_Developer
 ## Debugging & Troubleshooting
+### Project2 : Udagram portal deployment & development
 1. Problem -01 : Not able to connect to the AWS Postgres DB inspite of having all valid security group - inbound and outbound rules defined to connect and made the DB public: 
 Solution : https://stackoverflow.com/questions/51014647/aws-postgres-db-does-not-exist-when-connecting-with-pg
 2. Problem -02 : eb not recognized as internal command -- error
    Clone : https://github.com/aws/aws-elastic-beanstalk-cli-setup
    Follow the ReadMe instructions for setting up. Elastic beanstalk cli.
+3. Problem -03 : Not able to use "post" method, While issuing post requests on postman for the udacity-c2-rest-api and getting errors
+   My solution was: to install latest versions of following modules: (This solves the issue)
+   npm i sequelize@latest --save
+   npm i sequelize-typescript@latest --save
+4. 
+
 
 ####Comments ported after mergeing the pull request from the f-auth - authentication changes to feature branch
 ### New F-auth branch is created to keep track of the changes done as part of the authentication in the branch. This way its easy to go back and see what is changes from the master branch. 
