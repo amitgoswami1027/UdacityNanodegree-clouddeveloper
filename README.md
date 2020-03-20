@@ -1,4 +1,4 @@
-## AWS_Cloud_Developer - Nano Degree
+## AWS_Cloud_Developer - NanoDegree
 Udacity Cloud developer Nanodegree program, consists of few Projects and this repository is created for my work related to the nanodegree program. All my daily work and incremetal commits are captured in this repo. Also I am documenting all the debugging and troubleshooting which I struggled with during the program.
 
 ## Udacity Cloud Projects - AWS_Cloud_Developer
