@@ -53,17 +53,23 @@ ionic build
         c. run tests (npm test), identify broken function, fix the function
         d. write tests for form validation and re-run tests
 
-## Commands to run this server
-### npm install
-### npm update
-### npm install -g @ionic/cli
-### npm uninstall @angular-devkit/build-angular
-### npm install @angular-devkit/build-angular@0.12.4
-### ionic build
-### ionic serve
-npm install @ionic/app-scripts@latest --save-dev
-Try to update the package.json file so that "@angular-devkit/build-angular": "^0.800.1" reads "@angular-devkit/build-angular": "^0.12.4"
+## Debugging & Problems running ionic server
+1. Following error while running "ionic serve" command:
+   [ng] Schema validation failed with the following errors: [ng] Data path ".builders['app-shell']" should have required property 
+   'class'.
+   [ERROR] ng has unexpectedly closed (exit code 1).
+ ### Solution: Updated package.json from "@angular-devkit/build-angular": "^0.800.1" to "~0.13.9" and run run npm install 
+   Everyone is focusing on downgrading @angular-devkit/build-angular version to X, or upgrading @angular/cli version to Y or latest.
 
-Then run npm install in the command line.
+   However, Please do not blindly suggest an X or Y or latest as answers. (Though usually, downgrading devkit should be better because  
+   upgrading CLI is a breaking change)
+   The correct version to choose, always depends on your Angular (angular-cli) version.
+   
+   ### Angular CLI v8.3.19 -> 0.803.19
+   ### Angular CLI v8.3.17 -> 0.803.17
+   ### Angular CLI v7.3.8 -> 0.13.8
+   ### Angular CLI v6-lts -> 0.8.9
 
-            "es5BrowserSupport": true
+   For other specific versions, visit: https://github.com/angular/angular-cli/tags. Find your CLI version, and in some tags, they do  
+   mention the corresponding versions for @angular-devkit/** packages.
+
