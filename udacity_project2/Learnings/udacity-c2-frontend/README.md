@@ -58,7 +58,7 @@ ionic build
    [ng] Schema validation failed with the following errors: [ng] Data path ".builders['app-shell']" should have required property 
    'class'.
    [ERROR] ng has unexpectedly closed (exit code 1).
- ### Solution: Updated package.json from "@angular-devkit/build-angular": "^0.800.1" to "~0.13.9" and run run npm install 
+   Solution: Updated package.json from "@angular-devkit/build-angular": "^0.800.1" to "~0.13.9" and run run npm install 
    Everyone is focusing on downgrading @angular-devkit/build-angular version to X, or upgrading @angular/cli version to Y or latest.
 
    However, Please do not blindly suggest an X or Y or latest as answers. (Though usually, downgrading devkit should be better because  
