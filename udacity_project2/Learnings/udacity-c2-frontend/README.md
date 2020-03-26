@@ -52,3 +52,18 @@ ionic build
         b. NPM, Ionic CLI
         c. run tests (npm test), identify broken function, fix the function
         d. write tests for form validation and re-run tests
+
+## Commands to run this server
+### npm install
+### npm update
+### npm install -g @ionic/cli
+### npm uninstall @angular-devkit/build-angular
+### npm install @angular-devkit/build-angular@0.12.4
+### ionic build
+### ionic serve
+npm install @ionic/app-scripts@latest --save-dev
+Try to update the package.json file so that "@angular-devkit/build-angular": "^0.800.1" reads "@angular-devkit/build-angular": "^0.12.4"
+
+Then run npm install in the command line.
+
+            "es5BrowserSupport": true
