@@ -65,10 +65,10 @@ ionic build
    upgrading CLI is a breaking change)
    The correct version to choose, always depends on your Angular (angular-cli) version.
    
-   ### Angular CLI v8.3.19 -> 0.803.19
-   ### Angular CLI v8.3.17 -> 0.803.17
-   ### Angular CLI v7.3.8 -> 0.13.8
-   ### Angular CLI v6-lts -> 0.8.9
+   #### Angular CLI v8.3.19 -> 0.803.19
+   #### Angular CLI v8.3.17 -> 0.803.17
+   #### Angular CLI v7.3.8 -> 0.13.8
+   #### Angular CLI v6-lts -> 0.8.9
 
    For other specific versions, visit: https://github.com/angular/angular-cli/tags. Find your CLI version, and in some tags, they do  
    mention the corresponding versions for @angular-devkit/** packages.
