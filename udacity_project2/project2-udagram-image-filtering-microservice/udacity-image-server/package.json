@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "tsc": "tsc",
+    "prod": "tsc && node ./www/server.js",
     "clean": "rimraf ./www || true",
-    "build": "npm run clean && tsc && xcopy package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && tsc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts"
   },
   "author": "",
@@ -15,13 +18,21 @@
   "devDependencies": {
     "@types/bluebird": "^3.5.30",
     "@types/express": "^4.17.3",
-    "@types/node": "^11.15.7",
+    "@types/node": "^11.15.8",
+    "jsonwebtoken": "^8.5.1",
     "ts-node-dev": "^1.0.0-pre.44",
     "tslint": "^5.20.1",
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@jimp/plugin-circle": "^0.9.7",
+    "@jimp/plugin-fisheye": "^0.9.7",
+    "@jimp/plugin-shadow": "^0.9.7",
+    "@jimp/plugin-threshold": "^0.9.7",
+    "@types/jsonwebtoken": "^8.3.8",
     "express": "^4.17.1",
-    "jimp": "^0.9.6"
+    "jimp": "^0.9.7",
+    "jsonwebtoken": "^8.5.1",
+    "url-parse": "^1.4.7"
   }
 }

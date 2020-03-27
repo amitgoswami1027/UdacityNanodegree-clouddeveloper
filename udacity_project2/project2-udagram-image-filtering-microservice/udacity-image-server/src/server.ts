@@ -38,7 +38,7 @@ import { IndexRouter } from "./controller/v0/index.router";
   // Displays a simple message to the user
   app.get( "/", async ( req, res ) => 
   {
-    res.send("/api/v0/");
+    res.send("try GET /filteredimage?image_url={{}}")
   } );
   
 
