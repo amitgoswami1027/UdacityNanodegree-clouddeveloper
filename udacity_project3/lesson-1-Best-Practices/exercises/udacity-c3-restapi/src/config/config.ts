@@ -1,11 +1,11 @@
 export const config = {
   "dev": {
-    "username": "udagramagoswami",
-    "password": "udagramagoswami",
-    "database": "udagramagoswami",
-    "host": "udagramdemo.abc4def.us-east-2.rds.amazonaws.com",
+    "username": "udagramgoswami2",
+    "password": "udagramgoswami2",
+    "database": "udagramgoswami2",
+    "host": "",
     "dialect": "postgres",
-    "aws_reigion": "us-east-1a",
+    "aws_reigion": "udagramgoswami2.cvqgygxhhehg.us-east-1.rds.amazonaws.com",
     "aws_profile": "default",
     "aws_media_bucket": "udagrammicroservicesbucket"
   },
